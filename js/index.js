@@ -291,12 +291,11 @@ function reveal() {
   } else {
     w = 255; h = 155;
   }
-
   var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "https://www.youtube.com/embed/nl62hhiBMOM");
+  ifrm.setAttribute("src", 'ninh.png');
   //ifrm.style.width = `${w}px`;
   //ifrm.style.height = `${h}px`;
-  ifrm.style.border = 'none';
+  ifrm.style.border = '5px solid #fff';
   document.querySelector('#video').appendChild(ifrm);
 }
 
